@@ -1,0 +1,10 @@
+import demo.Book
+
+model {
+    Book book
+}
+json {
+    id book.id
+
+    name book.title
+}
